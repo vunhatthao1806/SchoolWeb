@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học tập | THPT Thảo Vy</title>
+<link rel="stylesheet" href="./hocbong/css/base.css" />
+<link rel="stylesheet" href="./hocbong/css/hoctap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    
+  </head>
+  <body onload="init()">
+    <header class="header">
+      <div class="header_wrap grid">
+        <div class="header-left">
+          <img class="header-left__img" src="./hocbong/img/hinhLogoTruong.svg" alt="" />
+        </div>
+        <div class="header-middle">
+          <ul class="header-middle__list">
+            <li class="header-middle__item">
+              <a href="./index.html">
+                <div class="header-middle__item-text">
+                  Trang chủ
+                </div>
+                <div class="header-middle__item-icon">
+                  <i class="fa-solid fa-house"></i>
+                </div>
+              </a>
+            </li>
+            <li class="header-middle__item">
+              <a href="./gioiThieu.html">
+                <div class="header-middle__item-text">
+                  Giới thiệu
+                </div>
+                <div class="header-middle__item-icon">
+                  <i class="fa-solid fa-rocket"></i>
+                </div>
+              </a>
+            </li>
+            <li class="header-middle__item">
+              <a href="./hocTap.html">
+                <div class="header-middle__item-text">
+                  Học tập
+                </div>
+                <div class="header-middle__item-icon">
+                  <i class="fa-solid fa-pen-nib"></i>
+                </div>
+              </a>
+            </li>
+            <li class="header-middle__item">
+              <a href="./hocBong.html">
+                <div class="header-middle__item-text">
+                  Học bổng
+                </div>
+                <ul class="sub-menu">
+                  <li class="sub-item">Đóng góp học bổng hỗ trợ học sinh</li>
+                  <li class="sub-item">
+                    Các loại học bổng
+                  </li>
+                  <li class="sub-item">
+                    Nộp hồ sơ xét học bổng trực tuyến
+                  </li>
+    
+                </ul>
+                <div class="header-middle__item-icon">
+                  <i class="fa-solid fa-trophy"></i>
+                </div>
+              </a>
+            </li>
+    
+    
+            </li>
+            <li class="header-middle__item">
+              <a href="./ngoaikhoa.html">
+                <div class="header-middle__item-text">
+                  Ngoại khóa
+                </div>
+                <ul class="sub-menu">
+                  <li class="sub-item">Hoạt động thể thao</li>
+                  <li class="sub-item">
+                    Hoạt động nghệ thuật
+                  </li>
+                  <li class="sub-item">
+                    Hoạt động về cộng đồng
+                  </li>
+                  <li class="sub-item">
+                    Hoạt động tình nguyện
+                  </li>
+                  <li class="sub-item">Câu lạc bộ</li>
+                </ul>
+                <div class="header-middle__item-icon">
+                  <i class="fa-solid fa-people-line"></i>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-right">
+          <div class="header-right__language">
+            <img src="./hocbong/img/VN.png" alt="" />
+          </div>
+          <div class="header-right__language">
+            <img src="./hocbong/img/El.png" alt="" />
+          </div>
+        </div>
+        <div class="header-mobile">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <div class="body">
+      <div class="link"><a href="index.html">Trang chủ</a> > Học tập</div>
+      <div class="title flex">
+        <h1>TỔ CHUYÊN MÔN</h1>
+        <div>
+          <input type="text" placeholder="Nhập tên môn học..." id="search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="subjects flex">
+        <div class="subject">
+          <div>
+            <img src="./hocbong/img/gia-su-toan-tai-hai-phong.jpg" alt="" />
+          </div>
+          <div class="name"><a href="Math1.html">Toán</a></div>
+        </div>
+        <div class="subject">
+          <div>
+            <img src="./hocbong/img/sach-hay-ve-vat-ly-cover-780x470.png" alt="" />
+          </div>
+          <div class="name"><a href="Physic1.html">Vật lí - Công nghệ</a></div>
+        </div>
+        <div class="subject">
+          <div>
+            <img src="./hocbong/img/laboratory-g6c7dcd44a_1280-1024x640.jpg" alt="" />
+          </div>
+          <div class="name"><a href="Chemistry1.html">Hóa học</a></div>
+        </div>
+        <div class="subject">
+          <div>
+            <img src="./hocbong/img/nen-hoc-tin-hoc-van-phong-o-dau.jpg" alt="" />
+          </div>
+          <div class="name"><a href="IT1.html">Tin học</a></div>
+        </div>
+        <div class="subject">
+          <div><img src="./hocbong/img/Biology.jpg" alt="" /></div>
+          <div class="name">
+            <a href="Biology1.html">Sinh học - Công nghệ</a>
+          </div>
+        </div>
+        <div class="subject">
+          <div>
+            <img
+              src="./hocbong/img/10-lợi-ích-của-học-tiếng-Anh-trong-thời-4_0-6.jpg"
+              alt=""
+            />
+          </div>
+          <div class="name"><a href="English1.html">Ngoại ngữ</a></div>
+        </div>
+        <div class="subject">
+          <div>
+            <img src="./hocbong/img/dscn4570.jpg" alt="" />
+          </div>
+          <div class="name"><a href="literature1.html">Ngữ văn</a></div>
+        </div>
+        <div class="subject">
+          <div>
+            <img src="./hocbong/img/f3ddf4ba5ac21a0f1ab37de7ccf99789.jpg" alt="" />
+          </div>
+          <div class="name">
+            <a href="History1.html">Lịch sử - Địa lí - GDCD</a>
+          </div>
+        </div>
+        <div class="subject">
+          <div>
+            <img src="./hocbong/img/bai-tap-the-duc-giam-can-buoi-sang-3.jpg" alt="" />
+          </div>
+          <div class="name">
+            <a href="Physical education1.html">Thể dục - Quốc phòng</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-wrap grid">
+        <div class="footer-top">
+    
+          <div class="footer-top__left">
+            <img class="footer-top__left-img" src="./hocbong/img/hinhLogoTruong.svg" alt="" />
+          </div>
+          <div class="footer-top__right">
+            Trường THPT Thảo Vy
+            <br />
+            <div class="footer-top__right-bottom">
+              Giá trị tri thức Việt
+            </div>
+          </div>
+    
+        </div>
+        <div class="boder"></div>
+        <div class="footer-main">
+          <div class="footer-main__left">
+            <div class="footer-main__left-top">Thông tin chung</div>
+            <div class="footer-main__left-boder"></div>
+            <div class="footer-main__left-info">
+              <div class="footer-main__left-address">
+                <div class="footer-main__left-address__icon icon">
+                  <i class="fa-solid fa-school"></i>
+                </div>
+                <div class="text-a">Địa chỉ:</div>
+                <div class="address">
+                  90/110 ABC, quận 12, TP.HCM
+                </div>
+              </div>
+              <div class="footer-main__left-phone">
+                <div class="footer-main__left-phone__icon icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="text-p">Điện thoại:</div>
+    
+                <div class="number">0333-499-156</div>
+              </div>
+              <div class="footer-main__left-email">
+                <div class="footer-main__left-email__icon icon">
+                  <i class="fa-solid fa-envelope-open-text"></i>
+                </div>
+                <div class="text-e">Email:</div>
+    
+                <div class="email">abc@abc.edu.vn</div>
+              </div>
+            </div>
+    
+            <div class="footer-main__left-bottom">
+              <div class="footer-main__left-bottom__text">
+                Trao đổi thông tin với chúng tôi qua
+              </div>
+              <div class="footer-main__left-bottom__icon">
+                <div class="footer-main__left-bottom__icon1">
+                  <a target="_blank" href="https://www.facebook.com/profile.php?id=100080613212711">
+                    <i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="footer-main__left-bottom__icon1">
+                  <a target="_blank" href="https://www.tiktok.com/vi-VN"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="footer-main__left-bottom__icon1">
+                  <a target="_blank"
+                    href="https://www.youtube.com/results?search_query=d%C6%B0%C6%A1ng+h%E1%BB%AFu+th%C3%A0nh"><i
+                      class="fa-brands fa-youtube"></i></a>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+          <div class="footer-main__right">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.925119729195!2d106.67491891471883!3d10.817042392293946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e1f241211f%3A0xc9ef195798144b1f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLkhDTSAtIEPGoSBz4bufIDM!5e0!3m2!1svi!2s!4v1659675907615!5m2!1svi!2s"
+              width="300" height="200" style="border: 1px solid #3a6d94" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    
+    </footer>
+    <script src="./hocbong/js/hoctap.js"></script>
+  </body>
+</html>

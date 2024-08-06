@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Cmompatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Học bổng</title>
+  <link rel="shortcut icon" href="./hocbong/img/hinhLogoTruong.svg">
+  <link rel="stylesheet" href="./hocbong/css/base.css" />
+  <link rel="stylesheet" href="./hocbong/css/hocBong.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body onload="finishLoad()">
+  <div class="app">
+    <!-- <div class="circle-loading"> -->
+    <header class="header">
+      <div class="header_wrap grid">
+        <div class="header-left">
+          <img class="header-left__img" src="./hocbong/img/hinhLogoTruong.svg" alt="" />
+        </div>
+        <div class="header-middle">
+          <ul class="header-middle__list">
+            <li class="header-middle__item">
+              <a href="./index.html">
+                <div class="header-middle__item-text">
+                  Trang chủ
+                </div>
+                <div class="header-middle__item-icon">
+                  <i class="fa-solid fa-house"></i>
+                </div>
+              </a>
+            </li>
+            <li class="header-middle__item">
+              <a href="./gioiThieu.html">
+                <div class="header-middle__item-text">
+                  Giới thiệu
+                </div>
+                <div class="header-middle__item-icon">
+                  <i class="fa-solid fa-rocket"></i>
+                </div>
+              </a>
+            </li>
+            <li class="header-middle__item">
+              <a href="./hocTap.html">
+                <div class="header-middle__item-text">
+                  Học tập
+                </div>
+                <div class="header-middle__item-icon">
+                  <i class="fa-solid fa-pen-nib"></i>
+                </div>
+              </a>
+            </li>
+            <li class="header-middle__item">
+              <a href="./hocBong.html">
+                <div class="header-middle__item-text">
+                  Học bổng
+                </div>
+                <ul class="sub-menu">
+                  <li class="sub-item">Đóng góp học bổng hỗ trợ học sinh</li>
+                  <li class="sub-item">
+                    Các loại học bổng
+                  </li>
+                  <li class="sub-item">
+                    Nộp hồ sơ xét học bổng trực tuyến
+                  </li>
+    
+                </ul>
+                <div class="header-middle__item-icon">
+                  <i class="fa-solid fa-trophy"></i>
+                </div>
+              </a>
+            </li>
+    
+    
+            </li>
+            <li class="header-middle__item">
+              <a href="./ngoaikhoa.html">
+                <div class="header-middle__item-text">
+                  Ngoại khóa
+                </div>
+                <ul class="sub-menu">
+                  <li class="sub-item">Hoạt động thể thao</li>
+                  <li class="sub-item">
+                    Hoạt động nghệ thuật
+                  </li>
+                  <li class="sub-item">
+                    Hoạt động về cộng đồng
+                  </li>
+                  <li class="sub-item">
+                    Hoạt động tình nguyện
+                  </li>
+                  <li class="sub-item">Câu lạc bộ</li>
+                </ul>
+                <div class="header-middle__item-icon">
+                  <i class="fa-solid fa-people-line"></i>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-right">
+          <div class="header-right__language">
+            <img src="./hocbong/img/VN.png" alt="" />
+          </div>
+          <div class="header-right__language">
+            <img src="./hocbong/img/El.png" alt="" />
+          </div>
+        </div>
+        <div class="header-mobile">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <div class="main grid">
+      <div class="main-top">
+        <div class="main-top__left">
+          <div class="main-top__left-text">
+            Săn học bổng lên tới 100% học phí toàn bộ thời gian
+            học.
+          </div>
+          <div class="main-top__left-note">
+            Học tập không phải cách duy nhất nhưng là con đường
+            ngắn nhất để dẫn đến thành công.
+          </div>
+          <div class="main-top__search">
+            <input type="text" class="main-top__search-input" placeholder="Tìm kiếm..." />
+            <div class="main-top__search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+
+          <ul class="main-top__border">
+            <li class="main-top__border-item1">
+              <div class="main-top__border-item__text">
+                12+
+              </div>
+              <div class="main-top__border-item__note">
+                Loại học bổng
+              </div>
+            </li>
+
+            <li class="main-top__border-item2">
+              <div class="main-top__border-item__text">
+                99+
+              </div>
+              <div class="main-top__border-item__note">
+                Xuất học bổng
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="main-top__right">
+          <div class="main-top__right-img">
+            <img src="https://sandla.org/wp-content/uploads/2019/04/79347scholarship-e1554413829472.jpg" alt="" />
+
+          </div>
+          <div class="main-top__right-text">
+            Nhanh tay đăng kí nhận học bổng hấp dẫn
+          </div>
+          <div class="main-top__right-longin">
+            <input type="button" value="Đăng nhập" class="main-top__right-longin_input" />
+            <div class="main-top__right-longin_top"></div>
+            <div class="main-top__right-longin_left"></div>
+            <div class="main-top__right-longin_right"></div>
+            <div class="main-top__right-longin_bottom"></div>
+          </div>
+        </div>
+      </div>
+      <div class="main-mid">
+        <ul class="main-mid__list">
+          <li class="main-mid__item img1">
+            <div class="main-mid__item-logo">
+              <img src="https://ou.edu.vn/wp-content/uploads/2017/06/dong-gop-hoc-bong-300x145.png" alt="" />
+
+            </div>
+          </li>
+          <li class="main-mid__item img2">
+            <div class="main-mid__item-logo">
+              <img src="https://ou.edu.vn/wp-content/uploads/2017/06/cac-loai-hoc-bong-300x145.png" alt="" />
+            </div>
+          </li>
+          <li class="main-mid__item img3">
+            <div class="main-mid__item-logo">
+              <a target="_blank" href="https://forms.gle/QkC4wZBzrkfXaFav8"><img
+                  src="https://ou.edu.vn/wp-content/uploads/2017/06/truc-tuyen1-300x145.png" alt="" /></a>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="main-bottom">
+        <ul class="main-bottom_list">
+          <li class="main-bottom_item">
+            <div class="main-bottom_item-img">
+              <img
+                src="https://duhocinec.com/static/assets/uploads/du-hoc-my/du-hoc-my-bac-trung-hoc/du-hoc-my-10-08-2017-1.jpg"
+                alt="" />
+            </div>
+            <div class="main-bottom_item-text">
+              <div class="main-bottom_item-text_main">
+                Học bổng du học Mỹ
+              </div>
+              <div class="main-bottom_item-text_note">
+                <span>Xem thông tin chi tiết
+                  <span>
+                    <a style="color: red" href="#">tại đây ...</a></span></span>
+              </div>
+
+              <div class="main-bottom_item-text_time">
+                Ngày đăng: 1/ 1/ 202...
+              </div>
+              <div class="main-bottom_item-text_describe">
+                Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Quod minima accusamus aut
+                quaerat tempora quia sunt animi laborum
+                quibusdam nam. Molestiae unde quaerat,
+                ducimus sapiente rem hic recusandae delectus
+                quasi!
+              </div>
+            </div>
+          </li>
+          <li class="main-bottom_item">
+            <div class="main-bottom_item-text">
+              <div class="main-bottom_item-text_main">
+                Học bổng cho học sinh đạt điểm cao trong học
+                tập
+              </div>
+              <div class="main-bottom_item-text_note">
+                <span>Xem thông tin chi tiết
+                  <span>
+                    <a style="color: red" href="#">tại đây ...</a></span></span>
+              </div>
+              <div class="main-bottom_item-text_time">
+                Ngày đăng: 1/ 1/ 202...
+              </div>
+              <div class="main-bottom_item-text_describe">
+                Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Quod minima accusamus aut
+                quaerat tempora quia sunt animi laborum
+                quibusdam nam. Molestiae unde quaerat,
+                ducimus sapiente rem hic recusandae delectus
+                quasi!
+              </div>
+            </div>
+            <div class="main-bottom_item-img">
+              <img src="https://enews.agu.edu.vn/images/enews/2016/11/goc-nhin/pphoctap.jpg" alt="" />
+            </div>
+          </li>
+          <li class="main-bottom_item">
+            <div class="main-bottom_item-img">
+              <img src="https://www.evn.com.vn/userfile/User/minhhanh/images/2020/7/27420ctan42.JPG" alt="" />
+            </div>
+            <div class="main-bottom_item-text">
+              <div class="main-bottom_item-text_main">
+                Học bổng cho học sinh có hoàn cảnh khó khăn
+              </div>
+              <div class="main-bottom_item-text_note">
+                <span>Xem thông tin chi tiết
+                  <span>
+                    <a style="color: red" href="#">tại đây ...</a></span></span>
+              </div>
+              <div class="main-bottom_item-text_time">
+                Ngày đăng: 1/ 1/ 202...
+              </div>
+              <div class="main-bottom_item-text_describe">
+                Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Quod minima accusamus aut
+                quaerat tempora quia sunt animi laborum
+                quibusdam nam. Molestiae unde quaerat,
+                ducimus sapiente rem hic recusandae delectus
+                quasi!
+              </div>
+            </div>
+          </li>
+          <li class="main-bottom_item">
+            <div class="main-bottom_item-text">
+              <div class="main-bottom_item-text_main">
+                Học bổng cho học sinh nghiên cứu khoa học
+              </div>
+              <div class="main-bottom_item-text_note">
+                <span>Xem thông tin chi tiết
+                  <span>
+                    <a style="color: red" href="#">tại đây ...</a></span></span>
+              </div>
+              <div class="main-bottom_item-text_time">
+                Ngày đăng: 1/ 1/ 202...
+              </div>
+              <div class="main-bottom_item-text_describe">
+                Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Quod minima accusamus aut
+                quaerat tempora quia sunt animi laborum
+                quibusdam nam. Molestiae unde quaerat,
+                ducimus sapiente rem hic recusandae delectus
+                quasi!
+              </div>
+            </div>
+            <div class="main-bottom_item-img">
+              <img src="https://tuyengiao.vn/Uploads/2019/10/10/22/374.jpg" alt="" />
+            </div>
+          </li>
+          <li class="main-bottom_item">
+            <div class="main-bottom_item-img">
+              <img src="https://sovhttdl.thaibinh.gov.vn/upload/80611/fck/files/7470ec02878c7875952627509b842659.jpg"
+                alt="" />
+            </div>
+            <div class="main-bottom_item-text">
+              <div class="main-bottom_item-text_main">
+                Học bổng khuyến khích thể dục thể thao
+              </div>
+              <div class="main-bottom_item-text_note">
+                <span>Xem thông tin chi tiết
+                  <span>
+                    <a style="color: red" href="#">tại đây ...</a></span></span>
+              </div>
+              <div class="main-bottom_item-text_time">
+                Ngày đăng: 1/ 1/202...
+              </div>
+              <div class="main-bottom_item-text_describe">
+                Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Quod minima accusamus aut
+                quaerat tempora quia sunt animi laborum
+                quibusdam nam. Molestiae unde quaerat,
+                ducimus sapiente rem hic recusandae delectus
+                quasi!
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-wrap grid">
+        <div class="footer-top">
+    
+          <div class="footer-top__left">
+            <img class="footer-top__left-img" src="./hocbong/img/hinhLogoTruong.svg" alt="" />
+          </div>
+          <div class="footer-top__right">
+            Trường THPT Thảo Vy
+            <br />
+            <div class="footer-top__right-bottom">
+              Giá trị tri thức Việt
+            </div>
+          </div>
+    
+        </div>
+        <div class="boder"></div>
+        <div class="footer-main">
+          <div class="footer-main__left">
+            <div class="footer-main__left-top">Thông tin chung</div>
+            <div class="footer-main__left-boder"></div>
+            <div class="footer-main__left-info">
+              <div class="footer-main__left-address">
+                <div class="footer-main__left-address__icon icon">
+                  <i class="fa-solid fa-school"></i>
+                </div>
+                <div class="text-a">Địa chỉ:</div>
+                <div class="address">
+                  90/110 ABC, quận 12, TP.HCM
+                </div>
+              </div>
+              <div class="footer-main__left-phone">
+                <div class="footer-main__left-phone__icon icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="text-p">Điện thoại:</div>
+    
+                <div class="number">0333-499-156</div>
+              </div>
+              <div class="footer-main__left-email">
+                <div class="footer-main__left-email__icon icon">
+                  <i class="fa-solid fa-envelope-open-text"></i>
+                </div>
+                <div class="text-e">Email:</div>
+    
+                <div class="email">abc@abc.edu.vn</div>
+              </div>
+            </div>
+    
+            <div class="footer-main__left-bottom">
+              <div class="footer-main__left-bottom__text">
+                Trao đổi thông tin với chúng tôi qua
+              </div>
+              <div class="footer-main__left-bottom__icon">
+                <div class="footer-main__left-bottom__icon1">
+                  <a target="_blank" href="https://www.facebook.com/profile.php?id=100080613212711">
+                    <i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="footer-main__left-bottom__icon1">
+                  <a target="_blank" href="https://www.tiktok.com/vi-VN"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="footer-main__left-bottom__icon1">
+                  <a target="_blank"
+                    href="https://www.youtube.com/results?search_query=d%C6%B0%C6%A1ng+h%E1%BB%AFu+th%C3%A0nh"><i
+                      class="fa-brands fa-youtube"></i></a>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+          <div class="footer-main__right">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.925119729195!2d106.67491891471883!3d10.817042392293946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e1f241211f%3A0xc9ef195798144b1f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLkhDTSAtIEPGoSBz4bufIDM!5e0!3m2!1svi!2s!4v1659675907615!5m2!1svi!2s"
+              width="300" height="200" style="border: 1px solid #3a6d94" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    
+    </footer>
+    <div class="overplay">
+      <div class="form form1">
+        <div class="output">
+          <div class="information">
+            <div class="people">
+              <div class="information-title">
+                Thông tin cá nhân
+              </div>
+              <div class="information-content">
+                <ul class="information-content__list">
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      1. Họ và tên đệm:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-file-signature"></i>
+                      </div>
+                      <input type="text" class="information-content__item-drum__import"
+                        placeholder="Ví dụ: Nguyễn Văn" />
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      2. Tên
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-file-signature"></i>
+                      </div>
+                      <input type="text" class="information-content__item-drum__import" placeholder="Ví dụ: A" />
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      3. Số điện thoại:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <input type="text" class="information-content__item-drum__import"
+                        placeholder="Ví dụ: 0123456789" />
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      4. Email:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <input type="email" class="information-content__item-drum__import"
+                        placeholder="Ví dụ: abc@gmail.com" />
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      5. Địa chỉ:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-house-chimney-user"></i>
+                      </div>
+                      <input type="text" class="information-content__item-drum__import"
+                        placeholder="Ví dụ: 12/1-Nguyễn Kiệm-Gò vấp" />
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      6. Quốc tịch:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-flag"></i>
+                      </div>
+                      <input type="text" class="information-content__item-drum__import" placeholder="Ví dụ: Việt Nam" />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="contribute">
+              <div class="information-title">
+                Thông tin đóng góp quỷ học bổng
+              </div>
+              <div class="information-content">
+                <ul class="information-content__list">
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      1. Tên cá nhân/ nhóm/ tổ chức/
+                      công ty đóng góp:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-people-line"></i>
+                      </div>
+                      <input type="text" class="information-content__item-drum__import"
+                        placeholder="Ví dụ: Công ty ABC" />
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      2. Tên quỷ học bổng muốn đóng
+                      góp:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                      </div>
+                      <input type="text" class="information-content__item-drum__import"
+                        placeholder="Ví dụ: Vượt khó học tập" />
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      3. Số tài khoảng đóng góp:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <input type="text" class="information-content__item-drum__import"
+                        placeholder="Ví dụ: 1234567891234" />
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      4. Tên tài khoản ngân hàng:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                      </div>
+                      <input type="text" class="information-content__item-drum__import"
+                        placeholder="Ví dụ: NGUYEN VAN A" />
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      5. Tên ngân hàng:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-building-columns"></i>
+                      </div>
+                      <input type="text" class="information-content__item-drum__import" placeholder="Ví dụ: AgriBank" />
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      6. Số tiền đóng góp(VND):
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                      </div>
+                      <input type="number" class="information-content__item-drum__import"
+                        placeholder="Ví dụ: 300.000.000" />
+
+                    </div>
+                  </li>
+                  <li class="information-content__item">
+                    <div class="information-content__item-name">
+                      7. Có tiết lộ danh tính đã ủng hộ
+                      quỷ:
+                    </div>
+                    <div class="information-content__item-drum">
+                      <div class="information-content__item-drum__icon">
+                        <div class="package">
+
+
+                          <div class="package-one">
+                            <input type="radio" id="information-content__item-drum__import-yes" name="money" value="" />
+                            <label for="information-content__item-drum__import-radio">Có</label>
+                          </div>
+                          <div class="package-one">
+                            <input type="radio" id="information-content__item-drum__import-no" name="money" value="" />
+                            <label for="information-content__item-drum__import-radio">Không</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="out">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="submitBtn">
+            Gửi
+          </div>
+        </div>
+      </div>
+      <div class="form form2">
+        <div class="output">
+          <div class="form2-list">
+            <div class="form2-item">
+              <div class="form2-item__img">
+                <img src="./hocbong/img/HBDoanhNghiep.png" alt="">
+              </div>
+              <div class="form2-item__title">
+                Học bổng doanh nghiệp
+              </div>
+            </div>
+            <div class="form2-item">
+              <div class="form2-item__img">
+                <img src="./hocbong/img/HBDoanhNghiep.png" alt="">
+              </div>
+              <div class="form2-item__title">
+                Học bổng doanh nghiệp
+              </div>
+            </div>
+            <div class="form2-item">
+              <div class="form2-item__img">
+                <img src="./hocbong/img/HBDoanhNghiep.png" alt="">
+              </div>
+              <div class="form2-item__title">
+                Học bổng doanh nghiệp
+              </div>
+            </div>
+            <div class="form2-item">
+              <div class="form2-item__img">
+                <img src="./hocbong/img/HBDoanhNghiep.png" alt="">
+              </div>
+              <div class="form2-item__title">
+                Học bổng doanh nghiệp
+              </div>
+            </div>
+          </div>
+          <div class="out">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+
+        </div>
+      </div>
+      <div class="form form3">
+        <div class="form-title">
+          Đăng nhập
+        </div>
+        <div class="form-login">
+          <form action="home.html">
+            <input value="" id="TK" type="text" placeholder="Nhập mã số học sinh" class="form-login__id" required>
+            <input value="" id="PW" type="password" placeholder="Mật khẩu" class="form-login__pw" required>
+            <button type="submit" class="form-login__btn btn"> Đăng nhập</button>
+          </form>
+
+        </div>
+        <div class="out">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </div>
+    <div class="go-to__top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </div>
+  </div>
+
+
+  <script src="./hocbong/js/base.js"></script>
+  <script src="./hocbong/js/hocBong.js"></script>
+</body>
+
+</html>
