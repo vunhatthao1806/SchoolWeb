@@ -1,0 +1,72 @@
+header a{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.top{
+    justify-content: space-between;
+}
+.top a{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+h1{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.subcontent>li>a{
+   display: block;
+}
+.top a:hover{
+    color: blue;
+} 
+.subcontent
+{
+    display: none;
+    position: absolute;
+}
+.sub:hover .subcontent{
+    display: block;
+}
+.main a{
+    color: black;
+}
+.main a:hover{
+    color: rgb(136, 207, 231);
+}
+.item>div>a>input{
+    background-color:rgb(72, 200, 243);
+    padding: 10px;
+    color: white;
+    margin-top: 15px;
+    border: none;
+}
+.item>div>a>input:hover{
+    background-color: black;
+}
+.main{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.item{
+    padding-bottom: 50px;
+    border-bottom: 1px dashed #777;
+    padding-top: 30px;
+    border-width: 50%;
+}
+a.link:hover{
+    background-color: rgb(192, 188, 188);
+}
+.body{
+    width: 90%;
+    margin: 0 auto;
+}
+img {
+    display: inline-block;
+    animation:flipInX; 
+    animation-duration: 2s;
+  }
